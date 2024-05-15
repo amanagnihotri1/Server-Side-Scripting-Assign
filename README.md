@@ -1,4 +1,4 @@
-# Frappe Application README
+# Frappe Server Side Assignment
 
 This repository contains code for various tasks in a Frappe application.
 
