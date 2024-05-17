@@ -4,7 +4,7 @@ def get_customer_count():
     data = frappe.db.sql("""SELECT COUNT(*) FROM `tabCustomer`;""")
     return {     
 	"value": data,
-	"fieldtype": "Int",
+	"fieldtype": "Int"
     }
 @frappe.whitelist()
 def get_active_students():
@@ -13,5 +13,5 @@ def get_active_students():
                           """)
     return {     
 	"value": students,
-	"fieldtype": "Int",
+	"fieldtype": "Int"
     }
